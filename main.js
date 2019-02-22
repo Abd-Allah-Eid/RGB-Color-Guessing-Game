@@ -13,6 +13,9 @@ easy.addEventListener("click",function(){
     hard.classList.remove("selected");
     easy.classList.add("selected");
     numOfColors = 3;
+    newColors.textContent = "New Colors";
+    stat.textContent = "";
+    headerColor.style.backgroundColor = "steelblue";
     colors = generateRandomColor(numOfColors);
     pickedColor = pickColor();
     rgbDisplay.textContent = pickedColor;
@@ -30,7 +33,10 @@ easy.addEventListener("click",function(){
 hard.addEventListener("click",function(){
     easy.classList.remove("selected");
     hard.classList.add("selected");
+    newColors.textContent = "New Colors";
+    stat.textContent = "";
     numOfColors = 6;
+    headerColor.style.backgroundColor = "steelblue";
     colors = generateRandomColor(numOfColors);
     pickedColor = pickColor();
     rgbDisplay.textContent = pickedColor;

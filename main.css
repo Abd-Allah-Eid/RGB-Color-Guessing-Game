@@ -30,6 +30,7 @@ button {
      font-weight: 700;
      color: steelblue;
      font-size: inherit;
+     transition: all 0.4s;
      
 } 
 
@@ -37,7 +38,7 @@ button:hover {
     color: white;
     background-color: steelblue;
     /* transition: all 0.4s; */
-    transition: all 0.4s;
+    
 }
 
 #stat {
