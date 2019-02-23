@@ -30,6 +30,7 @@ button {
      font-weight: 700;
      color: steelblue;
      font-size: inherit;
+     outline: none;
      transition: all 0.4s;
      
 } 
